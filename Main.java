@@ -6,7 +6,7 @@ public class Main {
         
         // Create Objects
         Triangle triangleObjOne = new Triangle(10.0f, 5.0f, "Scalene");
-        ColouredTriangle colObjOne = new ColouredTriangle(20.0f, 10.0f, "Isosceles");
+        ColouredTriangle colObjOne = new ColouredTriangle(20.0f, 10.0f, "Isosceles", "Red");
         Circle circleObjOne = new Circle(3.3f, 4.4f, 5.5f);
 
         // Calling my methods

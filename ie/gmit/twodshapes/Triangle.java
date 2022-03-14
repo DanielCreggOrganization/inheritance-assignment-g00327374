@@ -7,7 +7,8 @@ public class Triangle extends TwoDShape {
 
     // Parameterized Constructor
     public Triangle(float widthCm, float heightCm, String sideType) {
-        super(widthCm, heightCm, sideType);
+        super(widthCm, heightCm);
+        this.sideType = sideType;
     }
 
     public String getSideType() {
